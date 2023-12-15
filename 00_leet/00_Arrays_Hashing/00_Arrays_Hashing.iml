@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/1_Two Sum" isTestSource="false" packagePrefix="leet" />
+      <sourceFolder url="file://$MODULE_DIR$/217_Contains Duplicate" isTestSource="false" packagePrefix="ContainsDuplicate" />
+      <sourceFolder url="file://$MODULE_DIR$/238_Product of Array Except Self" isTestSource="false" packagePrefix="ProductofArrayExceptSelf" />
+      <sourceFolder url="file://$MODULE_DIR$/242_Valid Anagram" isTestSource="false" packagePrefix="ValidAnagram" />
+      <sourceFolder url="file://$MODULE_DIR$/347_Top K Frequent Elements" isTestSource="false" packagePrefix="TopKFrequentElements" />
+      <sourceFolder url="file://$MODULE_DIR$/49_Group Anagrams" isTestSource="false" packagePrefix="GroupAnagrams" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

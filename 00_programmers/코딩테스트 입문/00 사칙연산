@@ -1,0 +1,25 @@
+function add(num1, num2) {
+    var answer = num1+num2;
+    return answer;
+}
+console.log(add(1,2));
+
+function subs(num1, num2) {
+    var answer = num1-num2;
+    return answer;
+}
+
+function multi(num1, num2) {
+    var answer = num1*num2;
+    return answer;
+}
+
+function share(num1, num2) {
+    var answer = num1/num2;
+    return Math.floor(answer);
+}
+
+function multi_share(num1, num2) {
+    var answer = (num1/num2)*1000;
+    return Math.floor(answer);
+}
