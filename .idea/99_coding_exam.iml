@@ -6,6 +6,12 @@
       <sourceFolder url="file://$MODULE_DIR$/00_programmers/P120813_Not_Even_Number" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/00_programmers/P81301_Trans_Num" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/00_programmers/P42587_Process" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/00_programmers/P42627_Disk_Controller" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/00_programmers/P12909_ValidParenthese" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/00_programmers/P49189_FarthestNode" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/00_programmers/P120844_rotateArr" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/00_programmers/P120896_oneAlpha" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/00_programmers/P120908_arrInArr" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

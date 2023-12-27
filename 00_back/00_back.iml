@@ -8,7 +8,6 @@
       <sourceFolder url="file://$MODULE_DIR$/B9012_Parenthesis" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/B10807_Count_Int" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/B11382_Child_Math" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
