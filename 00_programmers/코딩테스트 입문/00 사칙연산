@@ -15,8 +15,8 @@ function multi(num1, num2) {
 }
 
 function share(num1, num2) {
-    var answer = num1/num2;
-    return Math.floor(answer);
+    double result = (double) num1 / (double) num2;
+            return (int) (result * 1000);
 }
 
 function multi_share(num1, num2) {
