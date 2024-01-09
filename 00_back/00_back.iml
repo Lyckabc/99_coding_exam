@@ -10,6 +10,9 @@
       <sourceFolder url="file://$MODULE_DIR$/B11382_Child_Math" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/B11725_findTreePa" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/B1254_palindrome" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/B2003_sumofVals" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/B2167_arr2dSum" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/B1890_jump" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

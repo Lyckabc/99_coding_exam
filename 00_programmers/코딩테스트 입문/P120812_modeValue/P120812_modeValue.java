@@ -22,17 +22,19 @@ public class P120812_modeValue {
             int num = array[i];
             map.put(num, map.getOrDefault(num, 0)+1);
         }
-        int mode = -1;
+        int cntNum = -1;
         for (int value : map.values()) {
-            if (value > mode) {
-                mode = value;
+            if (value > cntNum) {
+                 cntNum = value;
             }
         }
-        int count = 0;
-        for (int value : map.values()) {
-            if (value == mode) {
-                 count++;
-                if (count > 1){
+        int cnt = 0;
+        int mode =0;
+        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            if (entry.getValue().equals(cntNum)) {
+                cnt++;
+                mode = entry.getKey();
+                if (cnt > 1) {
                     return -1;
                 }
             }

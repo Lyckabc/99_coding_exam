@@ -7,7 +7,7 @@
  **        https://github.com/lyckabc                **
  **                                                  **
  ******************************************************/
-
+package B1254;
 import java.util.*;
 import java.io.*;
 
