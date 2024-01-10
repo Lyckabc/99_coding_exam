@@ -26,8 +26,11 @@ class Solution {
         String s = "";
         int j = 0;
         int k = 0;
-        for (int i = 1; i <= str1.length() + str2.length(); i++) {
-            if (i % 2 == 1) {
+        int strlen1 = str1.length();
+        int strlen2 = str2.length();
+
+        for (int i = 1; i <= strlen1 + strlen2; i++) {
+            if (strlen1 > j && i % 2 == 1) {
                 s += str1.charAt(j);
                 j++;
             } else {
