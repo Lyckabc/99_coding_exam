@@ -7,24 +7,34 @@
  **        https://github.com/lyckabc                **
  **                                                  **
  ******************************************************/
-
+package P181939;
 import java.util.*;
 import java.io.*;
 
 public class P181939_makeMaxNum {
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int a = 9;
-        int b = 91;
+        int a = 89;
+        int b = 7;
 
         System.out.println(sol.solution(a,b));
-        System.out.println(sol.solution(s));
+
     }
 }
 class Solution {
     public int solution(int a, int b) {
-        
-        int answer = 0;
-        return answer;
+        StringBuilder numA = new StringBuilder();
+        StringBuilder numB = new StringBuilder();
+        numA.append(a);
+        numA.append(b);
+        numB.append(b);
+        numB.append(a);
+        int A = Integer.parseInt(numA.toString());
+        int B = Integer.parseInt(numB.toString());
+        if (A >= B) {
+            return A;
+        }
+
+        return B;
     }
 }
