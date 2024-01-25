@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/B2003_sumofVals" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/B2167_arr2dSum" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/B1890_jump" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/B1270_hopscotch" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
