@@ -1,4 +1,4 @@
-// package 00_programmers.코딩테스트 입문.day05;
+package P120819;
 
 /**
  * Class: P120819_maxIceAmericano

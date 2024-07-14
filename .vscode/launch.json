@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "P120820_calculAge",
+            "request": "launch",
+            "mainClass": "P120820.P120820_calculAge",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
+            "name": "P120819_maxIceAmericano",
+            "request": "launch",
+            "mainClass": "P120819_maxIceAmericano",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "sourcePaths": [
+                "${workspaceFolder}"
+            ],
+            "classPaths": [
+                "${workspaceFolder}/bin"
+            ],
+            "cwd": "${fileDirname}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Project",
+            "request": "launch",
+            "mainClass": "${fileDirname}/${fileBasenameNoExtension}",
+            "sourcePaths": [
+                "${workspaceFolder}"
+            ],
+            "classPaths": [
+                "${workspaceFolder}/bin"
+            ],
+            "cwd": "${fileDirname}"
+        }
+    ]
+}

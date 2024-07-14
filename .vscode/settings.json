@@ -1,4 +1,10 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
-
+    "java.debug.settings.onBuildFailureProceed": true,
+    "mySettings.userName": "lyckabc",
+    "code-runner.executorMap": {
+        "java": "$(/usr/libexec/java_home)/bin/java",
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.fileDirectoryAsCwd": true
 }
