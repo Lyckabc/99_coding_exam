@@ -3,16 +3,16 @@
     "configurations": [
         {
             "type": "java",
-            "name": "P120820_calculAge",
+            "name": "P181922",
             "request": "launch",
-            "mainClass": "P120820.P120820_calculAge",
+            "mainClass": "day07.P181922.P181922",
             "projectName": "99_coding_exam_d0daec2a"
         },
         {
             "type": "java",
-            "name": "P120819_maxIceAmericano",
+            "name": "P181921",
             "request": "launch",
-            "mainClass": "P120819_maxIceAmericano",
+            "mainClass": "day07.P181921.P181921",
             "projectName": "99_coding_exam_d0daec2a"
         },
         {
