@@ -1,8 +1,9 @@
 class Solution {
     public int[] solution(int[] arr, int[][] queries) {
         int[] answer = new int[queries.length];
-        for (int i = 0; i < queries.length; i++) {
-            answer[i] = query_calcul(arr, queries[i][0], queries[i][1], queries[i][2]);
+        int idx = 0;
+        for (int[] query : queries) {
+            answer[idx++] = query_calcul(arr, query[0], query[1], query[2]);
         }
         return answer;
     }
