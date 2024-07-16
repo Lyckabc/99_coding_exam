@@ -1,17 +1,17 @@
 import java.util.Arrays;
-import java.util.HashMap;
+
 class Solution {
     public int[] solution(int[] emergency) {
-        int[] answer = new int[emergency.length];
-        int originEmergency[] = emergency.clone();
-        Arrays.sort(emergency);
-        HashMap<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i < emergency.length; i++) {
-            map.put(emergency[i], emergency.length - i);
+        int n = emergency.length;
+        int[] sorted = emergency.clone();
+        Arrays.sort(sorted);
+
+        int[] answer = new int[n];
+        for (int i = 0; i < n; i++) {
+            int rank = n - Arrays.binarySearch(sorted, emergency[i]);
+            answer[i] = rank;
         }
-        for (int i = 0; i < originEmergency.length; i++) {
-            answer[i] = map.get(originEmergency[i]);
-        }
+
         return answer;
     }
 }
