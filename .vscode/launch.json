@@ -3,6 +3,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "P181913",
+            "request": "launch",
+            "mainClass": "programmers.CT_foundation.day08.P181913.P181913",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
+            "name": "P181914",
+            "request": "launch",
+            "mainClass": "programmers.CT_foundation.day08.P181914.P181914",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
+            "name": "P181915",
+            "request": "launch",
+            "mainClass": "programmers.CT_foundation.day08.P181915.P181915",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
+            "name": "P181916",
+            "request": "launch",
+            "mainClass": "programmers.CT_foundation.day08.P181916.P181916",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
+            "name": "P181917",
+            "request": "launch",
+            "mainClass": "programmers.CT_foundation.day08.P181917.P181917",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
+            "name": "P120831",
+            "request": "launch",
+            "mainClass": "programmers.CT_basic.day07.P120831.P120831",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
+            "name": "P120829",
+            "request": "launch",
+            "mainClass": "programmers.CT_basic.day07.P120829.P120829",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
+            "name": "P120826",
+            "request": "launch",
+            "mainClass": "programmers.CT_foundation.day08.P120826.P120826",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
+            "name": "P42839",
+            "request": "launch",
+            "mainClass": "programmers.CT_algorithm.ExhaustiveSearch.P42839.P42839",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
             "name": "P42840",
             "request": "launch",
             "mainClass": "programmers.CT_algorithm.ExhaustiveSearch.P42840.P42840",
