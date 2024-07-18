@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "P120843",
+            "request": "launch",
+            "mainClass": "programmers.CT_basic.day10.P120843.P120843",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
+            "name": "P120842",
+            "request": "launch",
+            "mainClass": "programmers.CT_basic.day10.P120842.P120842",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
             "name": "P181903",
             "request": "launch",
             "mainClass": "programmers.CT_foundation.day10.P181903.P181903",
