@@ -3,6 +3,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "P181888",
+            "request": "launch",
+            "mainClass": "day13.P181888.P181888",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
+            "name": "P181889",
+            "request": "launch",
+            "mainClass": "day13.P181889.P181889",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
+            "name": "P181890",
+            "request": "launch",
+            "mainClass": "day13.P181890.P181890",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
+            "name": "P181891",
+            "request": "launch",
+            "mainClass": "day13.P181891.P181891",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
+            "name": "P181892",
+            "request": "launch",
+            "mainClass": "day13.P181892.P181892",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
+            "name": "P181893",
+            "request": "launch",
+            "mainClass": "day12.P181893.P181893",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
             "name": "P181897",
             "request": "launch",
             "mainClass": "day12.P181897.P181897",
