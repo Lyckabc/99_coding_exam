@@ -11,8 +11,8 @@ import java.util.Arrays;
 public class P120905 {
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int n = 3;
-        int[] numlist = {4, 5, 6, 7, 8, 9, 10, 11, 12};
+        int n = 100;
+        int[] numlist = {};
         long startTime = System.nanoTime();
 
         System.out.println(Arrays.toString(sol.solution(n, numlist)));
@@ -31,12 +31,40 @@ class Solution {
                 answerStr += " ";
             }
         }
+        if (answerStr.length() == 0) {
+            return new int[0];
+        }
         String[] answerArr = answerStr.split(" ");
         int lenStr = answerArr.length;
         int[] answer = new int[lenStr];
         for (int i = 0; i < lenStr; i++) {
-            answer[i] = answerArr[i];
+            answer[i] = Integer.parseInt(answerArr[i]);
         }
         return answer;
     }
 }
+/*
+import java.util.Arrays;
+
+class Solution {
+    public int[] solution(int n, int[] numList) {
+        return Arrays.stream(numList).filter(value -> value % n == 0).toArray();
+    }
+}
+ */
+/*
+import java.util.List;
+import java.util.ArrayList;
+
+class Solution {
+    public int[] solution(int n, int[] numlist) {
+        List<Integer> answer = new ArrayList<>();
+        for(int num : numlist){
+            if(num % n == 0){
+                answer.add(num);
+            }
+        }
+        return answer.stream().mapToInt(x -> x).toArray();
+    }
+}
+ */
