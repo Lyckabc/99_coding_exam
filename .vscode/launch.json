@@ -3,6 +3,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "P181874",
+            "request": "launch",
+            "mainClass": "programmers.CT_foundation.day16.P181874.P181874",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
+            "name": "P181875",
+            "request": "launch",
+            "mainClass": "programmers.CT_foundation.day16.P181875.P181875",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
+            "name": "P181876",
+            "request": "launch",
+            "mainClass": "programmers.CT_foundation.day16.P181876.P181876",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
+            "name": "P181877",
+            "request": "launch",
+            "mainClass": "programmers.CT_foundation.day16.P181877.P181877",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
             "name": "P120907",
             "request": "launch",
             "mainClass": "programmers.CT_basic.day17.P120907.P120907",
