@@ -22,11 +22,10 @@ public class P120912 {
 class Solution {
     public int solution(int[] array) {
         int answer = 0;
-        String str = array.toString();
         for (int i = 0; i <array.length; i++) {
             int tmp = array[i];
             while (tmp > 0) {
-                if (tmp / 10 == 7) {
+                if (tmp % 10 == 7) {
                     answer++;
                 }
                 tmp /= 10;
@@ -35,3 +34,38 @@ class Solution {
         return answer;
     }
 }
+/*
+import java.util.*;
+import java.util.stream.Collectors;
+
+class Solution {
+    public int solution(int[] array) {
+        return (int) Arrays.stream(
+                        Arrays.stream(array)
+                                .mapToObj(String::valueOf)
+                                .collect(Collectors.joining())
+                                .split("")
+                )
+                .filter(s -> s.equals("7"))
+                .count();
+    }
+}
+ */
+/*
+class Solution {
+    public int solution(int[] array) {
+        int svn = 0;
+        String str = "";
+
+        for(int i=0; i<array.length; i++){
+            str += array[i];
+        }
+
+        for(int i=0; i<str.length(); i++){
+            if(str.substring(i,i+1).equals("7")) svn++;
+        }
+
+        return svn;
+    }
+}
+ */
