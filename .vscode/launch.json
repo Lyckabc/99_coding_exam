@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "P181862",
+            "request": "launch",
+            "mainClass": "programmers.CT_foundation.day19.P181862.P181862",
+            "projectName": "99_coding_exam_d0daec2a"
+        },
+        {
+            "type": "java",
             "name": "P120869",
             "request": "launch",
             "mainClass": "programmers.CT_basic.day21.P120869.P120869",
